@@ -45,8 +45,8 @@ Karena wilayah tropis seperti Raja Ampat sangat sering tertutup awan tebal. Jika
 ![Infografis Mata AI di Langit Raja Ampat](./MATA%20AI%20DI%20LANGIT%20RAJA%20AMPAT.png)
 
 ### Ringkasan Hasil Analisis (2018–2025):
-* **Ekspansi Area Tambang (> 2x Lipat):** Luas area pertambangan melonjak **+141,5%**, dari **128,1 Ha** (2018–2019) menjadi **307,3 Ha** (2024–2025)
-* **Peningkatan Perairan Keruh:** Luas area air yang diduga keruh di sekitar pesisir pulau meningkat sebesar **+117.4%** dari **166.7 Ha** menjadi **307.1 Ha** yang berpotensi mengancam ekosistem terumbu karang dan perikanan lokal
+* **Ekspansi Area Tambang lebih dari 2x Lipat:** Luas area pertambangan melonjak **+141,5%**, dari **128,1 Ha** (2018–2019) menjadi **307,3 Ha** (2024–2025)
+* **Peningkatan Perairan Keruh:** Luas area air yang diduga keruh di sekitar pesisir pulau meningkat sebesar **+117.4%** dari **166.7 Ha** (2018–2019) menjadi **307.1 Ha** (2024–2025) yang berpotensi mengancam ekosistem terumbu karang dan perikanan lokal
 * **Proyeksi Masa Depan:** Jika laju pertumbuhan area pertambangan berlangsung konstan tanpa pengendalian, seluruh area vegetasi di Pulau Gag diprediksi **akan habis sebelum tahun 2208**.
 
 ---
