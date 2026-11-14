@@ -1,56 +1,63 @@
-# 🛰️ Mata AI di Langit Raja Ampat: Analisis Spasial Pulau Gag (2018–2025)
+# 🛰️ MATA AI DI LANGIT RAJA AMPAT
+**Analisis Perubahan Fungsi Lahan di Pulau Gag Periode 2018–2025 dengan Algoritma Random Forest**
 
-Pemantauan perubahan fungsi lahan di **Pulau Gag, Raja Ampat** menggunakan citra satelit **Sentinel-2** dan algoritma **Random Forest** pada platform **Google Earth Engine (GEE)**.
-
----
-
-## 🌍 Latar Belakang
-
-### 1. Mengukur Pulau dari Langit
-![Latar Belakang 1](Latar%20Belakang%201.png)
-
-Pada sisi kiri merupakan tampilan *default* dari Google Maps yang biasa kita gunakan sehari-hari. Kita mungkin bisa dengan mudah mengukur sebidang meja, sehelai baju, atau luas sebuah rumah—**tapi bagaimana cara mengukur perubahan sebuah pulau secara menyeluruh?**
-
-**Kenapa harus memakai satelit dan bukan sekadar gambar Google Maps? (Sisi Kanan)**  
-Tampilan Google Maps standar hanya menyajikan foto visual warna tampak (*RGB*) statis tanpa kontrol periode waktu yang presisi. Sebaliknya, citra satelit multispektral seperti **Sentinel-2** mampu merekam pantulan gelombang cahaya yang tidak terlihat oleh mata manusia (seperti spektrum inframerah untuk membaca kesehatan vegetasi, tingkat kekeruhan perairan, hingga indeks kandungan besi) serta memiliki arsip deret waktu (*time-series*) yang konsisten untuk membandingkan kondisi masa lalu dan masa kini secara terukur.
+Proyek analisis geospasial ini memanfaatkan citra satelit **Sentinel-2 (A & B)** pada **Google Earth Engine (GEE)** serta algoritma *machine learning* **Random Forest** untuk memantau dampak aktivitas pertambangan dan perubahan tutupan lahan di Pulau Gag, Raja Ampat.
 
 ---
 
-### 2. Pesona "Pulau Surga"
-![Latar Belakang 2](Latar%20Belakang%202.png)
+## 🌍 Latar Belakang: Mengapa Harus Citra Satelit?
 
-Siapa di sini yang pernah mendengar julukan **Pulau Surga**? Melalui potret ini, tidak salah bukan jika kawasan ini disebut sebagai surganya flora dan fauna? Gugusan kepulauan hijau yang asri, penyu raksasa, hingga pari manta raksasa hidup berdampingan dalam ekosistem laut yang sangat indah.
+![Latar Belakang 1](./Latar%20Belakang%201.png)
 
----
+Pada sisi kiri merupakan tampilan *default* dari Google Maps. Kita mungkin bisa dengan mudah mengukur panjang sebuah meja, ukuran baju, atau luas sebuah rumah—tetapi **bagaimana cara mengukur perubahan luas seluruh pulau?**
 
-### 3. Ancaman di Balik Keindahan
-![Latar Belakang 3](Latar%20Belakang%203.png)
-
-Namun, keindahan itu terancam tidak lama lagi akan lenyap. Terlihat kumpulan ikan yang kini berenang di sekitar rongsokan besi, terumbu karang dengan latar belakang alat berat mesin, serta pulau-pulau kecil yang berubah menjadi kawasan pertambangan. Sedih sekali, bukan? 😢
+Lalu, kenapa tidak menggunakan tampilan satelit dari Google Maps saja? Pada sisi kanan gambar di atas, citra satelit Google Maps memang terlihat bersih dari awan, tetapi memiliki resolusi analisis yang terbatas dan terdapat beberapa area tertentu yang disensor dengan *blur*. Oleh karena itu, dibutuhkan data citra satelit multispektral mentah seperti **Sentinel-2** agar setiap piksel ($10\text{ m} \times 10\text{ m}$) dapat dianalisis secara objektif dan akurat.
 
 ---
 
-## 📊 Hasil Analisis & Infografis
+## 🐢 Surga yang Terancam
 
-![Infografis Mata AI di Langit Raja Ampat](MATA%20AI%20DI%20LANGIT%20RAJA%20AMPAT.png)
+![Latar Belakang 2](./Latar%20Belakang%202.png)
 
-### Ringkasan Singkat
-* **Data & Metode:** Mengolah **78 citra** Sentinel-2 (periode 2018–2019) dan **104 citra** (periode 2024–2025) dengan resolusi spasial `10m × 10m` per piksel menggunakan klasifikasi **Random Forest** (*100 decision trees*, akurasi *Kappa* ~98%).
-* **Ekspansi Tambang:** Luas area pertambangan meningkat **141,2%** (dari `138,1 Ha` menjadi `337,2 Ha`).
-* **Dampak Perairan:** Area air keruh di sekitar pesisir pulau melonjak **117,4%** (dari `141,7 Ha` menjadi `307,1 Ha`).
-* **Proyeksi Keberlanjutan:** Jika laju pertumbuhan area tambang berlangsung konstan tanpa pengendalian, seluruh tutupan vegetasi di Pulau Gag diprediksi habis sebelum tahun **2208**.
+Siapa di sini yang pernah mendengar julukan **Pulau Surga**? Melalui potret di atas, tidak salah jika Raja Ampat disebut sebagai surganya flora dan fauna—gugusan kepulauan yang memukau, penyu raksasa, hingga pari manta raksasa hidup berdampingan dalam ekosistem yang sangat indah.
 
-📄 **Kajian Lengkap:** Baca naskah lengkap penelitian di [KTI_MATA AI DI LANGIT RAJA AMPAT.pdf](./KTI_MATA%20AI%20DI%20LANGIT%20RAJA%20AMPAT.pdf).
+![Latar Belakang 3](./Latar%20Belakang%203.png)
 
----
+Namun, keindahan itu terancam tidak lama lagi akan lenyap. Terlihat kumpulan ikan yang berenang di sekitar rongsokan besi, terumbu karang dengan latar belakang alat berat dan mesin, hingga pulau-pulau kecil yang beralih fungsi menjadi area pertambangan. Sedih sekali, bukan? 😢
 
-> 💭 **Setelah melihat data dan potret nyata di atas, kira-kira langkah apa yang akan kalian lakukan setelah ini?**
+> **Kira-kira, setelah melihat kenyataan ini, langkah nyata apa yang akan kalian lakukan?**  
+> Bagi kami, langkah pertama adalah menghadirkan bukti berbasis data yang transparan dan tidak terbantahkan melalui pemantauan satelit dan kecerdasan buatan.
 
 ---
 
-## 👥 Tim Penyusun (Kelompok 07 — S1 Sains Data, UNESA)
-* **Rafael Hartono** (24031554166)
-* **Satya Apta Mahardika** (24031554024)
-* **Muhammad Arief Firmansyah** (24031554059)
-* **Naufal Muzaki** (24031554061)
-* **Yazid Husain Abdurrahman** (24031554076)
+## ☁️ Mengapa Menggunakan Puluhan Data Gambar?
+
+![Contoh Data Kotor](./data%20kotor.png)
+
+Mengapa kami mengumpulkan **78 citra** pada periode 2018–2019 dan **104 citra** pada periode 2024–2025, alih-alih langsung memilih 1 gambar saja?
+
+Karena wilayah tropis seperti Raja Ampat sangat sering tertutup awan tebal. Jika hanya mengambil 1 gambar tunggal, data yang didapat akan penuh gangguan awan dan bayangan seperti pada gambar di atas. Dengan menggabungkan puluhan citra (*image compositing*) dan menerapkan *cloud masking*, kita bisa mendapatkan tampilan permukaan Pulau Gag yang bersih untuk diklasifikasikan.
+
+---
+
+## 📊 Infografis & Temuan Utama
+
+![Infografis Mata AI di Langit Raja Ampat](./MATA%20AI%20DI%20LANGIT%20RAJA%20AMPAT.png)
+
+### Ringkasan Hasil Analisis (2018–2025):
+* **Ekspansi Area Tambang (> 2x Lipat):** Luas area pertambangan melonjak **+141,2%**, dari **128,1 Ha** (2018–2019) menjadi **309,3 Ha** (2024–2025).
+* **Peningkatan Perairan Keruh:** Area air keruh di sekitar pesisir pulau meningkat sebesar **+162,06 Ha** (**+117,4%**), yang berpotensi mengancam ekosistem terumbu karang dan perikanan lokal.
+* **Proyeksi Masa Depan:** Jika laju pertumbuhan area pertambangan berlangsung konstan tanpa pengendalian, seluruh area vegetasi di Pulau Gag diprediksi **akan habis sebelum tahun 2208**.
+
+---
+
+## 📄 Dokumen Lengkap & Tim Penyusun
+
+* 📑 **Karya Tulis Ilmiah (PDF):** [Baca KTI Lengkap di Sini](./KTI_MATA%20AI%20DI%20LANGIT%20RAJA%20AMPAT.pdf)
+* 🎓 **Program Studi:** S1 Sains Data — Universitas Negeri Surabaya (Kelompok 07)
+* 👥 **Anggota Tim:**
+  * **Rafael Hartono** (`24031554166`)
+  * **Satya Apta Mahardika** (`24031554024`)
+  * **Muhammad Arief Firmansyah** (`24031554059`)
+  * **Naufal Muzaki** (`24031554061`)
+  * **Yazid Husain Abdurrahman** (`24031554076`)
