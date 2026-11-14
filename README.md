@@ -51,7 +51,7 @@ Karena wilayah tropis seperti Raja Ampat sangat sering tertutup awan tebal. Jika
 
 ---
 
-## 📄 Dokumen Lengkap & Tim Penyusun
+## 📄 Dokumen & Tim Penyusun
 
 * 📑 **Karya Tulis Ilmiah (PDF):** [Baca KTI Lengkap di Sini](./KTI_MATA%20AI%20DI%20LANGIT%20RAJA%20AMPAT.pdf)
 * 🎓 **Program Studi:** S1 Sains Data — Universitas Negeri Surabaya (Kelompok 07)
