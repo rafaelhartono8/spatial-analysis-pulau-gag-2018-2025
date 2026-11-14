@@ -26,7 +26,7 @@ Siapa di sini yang pernah mendengar julukan **Pulau Surga**? Melalui potret di a
 Namun, keindahan itu terancam tidak lama lagi akan lenyap. Terlihat kumpulan ikan yang berenang di sekitar rongsokan besi, terumbu karang dengan latar belakang alat berat dan mesin, hingga pulau-pulau kecil yang beralih fungsi menjadi area pertambangan. Sedih sekali, bukan? 😢
 
 > **Kira-kira, setelah melihat kenyataan ini, langkah nyata apa yang akan kalian lakukan?**  
-> Bagi kami, langkah pertama adalah menghadirkan bukti berbasis data yang transparan dengan memanfaatkan satelit dan Kecerdasan Buatan (AI)
+> Bagi kami, langkah pertama adalah mengukur perubahan lahannya dengan memanfaatkan satelit dan Kecerdasan Buatan (AI)
 
 ---
 
