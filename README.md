@@ -9,7 +9,7 @@ Proyek analisis geospasial ini memanfaatkan citra satelit **Sentinel-2 (A & B)**
 
 ![Latar Belakang 1](./Latar%20Belakang%201.png)
 
-Pada sisi kiri merupakan tampilan *default* dari Google Maps. Kita mungkin bisa dengan mudah mengukur panjang sebuah meja, ukuran baju, atau luas sebuah rumah—tetapi **bagaimana cara mengukur perubahan luas seluruh pulau?**
+Pada sisi kiri merupakan tampilan *default* dari Google Maps. Kita mungkin bisa dengan mudah mengukur panjang sebuah meja dengan penggaris, luas lantai keramik dengan penggaris, atau luas sebuah rumah dengan laser pengukur jarak, tetapi **bagaimana cara mengukur luas seukuran pulau?**
 
 Lalu, kenapa tidak menggunakan tampilan satelit dari Google Maps saja? Pada sisi kanan gambar di atas, citra satelit Google Maps memang terlihat bersih dari awan, tetapi memiliki resolusi analisis yang terbatas dan jika kalian teliti kalian dapat beberapa area tertentu yang disensor dengan *blur*. Oleh karena itu, dibutuhkan data citra satelit multispektral mentah seperti **Sentinel-2** agar setiap piksel ($10\text{ m} \times 10\text{ m}$) dapat dianalisis secara objektif dan akurat.
 
